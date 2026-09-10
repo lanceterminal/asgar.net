@@ -1,0 +1,27 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Tashnim Asgar"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "circle_A.png"
+secondaryLogo = "circle_A.png"
+
+[[params.author.links]]
+github = "https://github.com/lanceterminal"
+
+[[params.author.links]]
+linkedin = "https://www.linkedin.com/in/asgartashnim/"
+
+["params.author"]
+name = "Tashnim Asgar"
+email = "tashnim@asgar.net"
+image = "asgart.png"
+headline = "Incident Response Analyst"
+bio = ""
+imageQuality = "96"
