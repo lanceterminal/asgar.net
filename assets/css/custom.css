@@ -1,0 +1,14 @@
+/* The floating header layout caps `img.logo` at 2.5rem (see Blowfish's
+   header/floating.html), which is too small for our wide wordmark logo. */
+img.logo {
+  max-height: 2.75rem !important;
+  max-width: 13rem !important;
+}
+
+/* The source PNG mixes black, white, and anti-aliased gray pixels, so a
+   plain `invert()` flips its existing white bits to black instead of
+   giving a clean silhouette. Crush every opaque pixel to black first,
+   then invert, so dark mode always renders a solid white logo. */
+.dark img.logo {
+  filter: brightness(0) invert(1);
+}

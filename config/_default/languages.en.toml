@@ -9,8 +9,8 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-logo = "circle_A.png"
-secondaryLogo = "circle_A.png"
+logo = "asgar-logo.png"
+secondaryLogo = "asgar-logo.png"
 
 [[params.author.links]]
 github = "https://github.com/lanceterminal"
