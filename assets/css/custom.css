@@ -1,0 +1,6 @@
+/* The floating header layout caps `img.logo` at 2.5rem (see Blowfish's
+   header/floating.html), which is too small for our wide wordmark logo. */
+img.logo {
+  max-height: 3.25rem !important;
+  max-width: 16rem !important;
+}
